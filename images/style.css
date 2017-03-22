@@ -1,0 +1,54 @@
+.universe{
+  background-color: tan;
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#title{
+  font-weight: bold;
+}
+
+.header{
+  display: inline-block;
+  height: 200px min;
+  width: 500px min;
+
+}
+h1{
+  display: inline;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+}
+
+.altuniverse{
+  display: flex;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+
+}
+.odd{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: blue;
+
+
+}
+.even{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: red;
+
+
+}

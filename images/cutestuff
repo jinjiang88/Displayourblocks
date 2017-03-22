@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="universe">
+      <div class="header">
+        <img src="1.jpg" alt="1.jpg">
+          <h1>Display our blocks!</h1>
+        <img src="2.png" alt="2.png">
+      </div>
+    <div class="altuniverse">
+
+    <div class="odd">
+      <img src="3.jpg" alt="3.jpg">
+      <img src="4.jpg" alt="4.jpg">
+      <img src="5.jpg" alt="5.jpg">
+      <img src="6.png" alt="6.png">
+
+    </div>
+    <div class="even">
+      <img src="7.png" alt="7.png">
+      <img src="8.png" alt="8.png">
+      <img src="9.png" alt="9.png">
+      <img src="10.png" alt="10.png">
+
+    </div>
+    <div class="odd">
+      <img src="11.png" alt="11.png">
+      <img src="12.jpg" alt="12.jpg">
+      <img src="13.png" alt="13.png">
+      <img src="14.jpg" alt="14.jpg">
+
+    </div>
+    <div class="even">
+      <img src="15.png" alt="15.png">
+      <img src="16.png" alt="16.png">
+      <img src="17.png" alt="17.png">
+      <img src="18.gif" alt="18.gif">
+
+    </div>
+    <div class="odd">
+      <img src="19.png" alt="19.png">
+      <img src="20.jpg" alt="20.jpg">
+      <img src="21.jpg" alt="21.jpg">
+      <img src="22.jpg" alt="22.jpg">
+    </div>
+    </div>
+
+
+
+  </body>
+</html>
