@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="/logout">Log out</a>
+    <h1>Hi {{request.session.user_name}}</h1>
+    <table>
+      <tr>
+        <th>Destination</th>
+        <th>Travel Start Date</th>
+        <th>Travel End Date</th>
+        <th>Plan</th>
+      </tr>
+      {% for trip in mytrip %}
+      <tr>
+        <td></td>
+        <td><a href="/secrets/{{trip.id}}">{{trip.destination}}</a></td>
+        <td>{{trip.travel_start}}</td>
+        <td>{{trip.travel_end}}</td>
+        <td>{{trip.plan}}</td>
+        <td></td>
+      </tr>
+      {% endfor %}
+    </table>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Destination</th>
+        <th>Travel Start Date</th>
+        <th>Travel End Date</th>
+        <th>Do You Want to Join?</th>
+      </tr>
+      {% for trip in all_trips %}
+      <tr>
+        <th>{{trip.user.name}}</th>
+        <th>{{trip.destination}}</th>
+        <th>{{trip.travel_start}}</th>
+        <th>{{trip.travel_end}}</th>
+        <th> Join </th>
+      </tr>
+      {% endfor %}
+    </table>
+    <a href="/add">Add Travel Plan</a>
+  </body>
+</html>
